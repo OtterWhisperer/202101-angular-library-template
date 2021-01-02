@@ -1,5 +1,7 @@
 # AngularLibraryTemplate
 
+> The root folder is created as the angular __workspace__ with the `ng new <name> --createApplication=false` command. In order to create the publish-ready library we have to first *build* the library: `ng build library-template --prod`. We must use the __--prod__ flag because it is not allowed to publish a library based on the *Ivy-Compiler* which comes with __AoT__-Compilation. Run `npm package` and `npm publish` afterwards. Hint: you might need to `npm login` first.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
 
 ## Development server
