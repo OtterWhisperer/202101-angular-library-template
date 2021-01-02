@@ -1,6 +1,20 @@
 {
   "name": "library-template",
   "version": "0.0.1",
+  "description": "My first library template published to npm.",
+  "author": "OtterWhisperer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OtterWhisperer/202101-angular-library-template.git"
+  },
+  "homepage": "https://github.com/OtterWhisperer/202101-angular-library-template",
+  "keywords": [
+    "angular",
+    "javascript",
+    "typescript",
+    "library",
+    "template"
+  ],
   "peerDependencies": {
     "@angular/common": "^11.0.5",
     "@angular/core": "^11.0.5"
